@@ -25,7 +25,7 @@ function App() {
       <label htmlFor="cars">Choose a car:</label>
       <select name="cars" id="cars">
         {testArray.map((item) => (
-          <option key={item.value} value={item.value}>
+          <option class="option" key={item.value} value={item.value}>
             {item.name}
           </option>
         ))}
