@@ -1,24 +1,26 @@
 import './App.css'
-import './components/SelectInput'
+import SelectInput from './components/SelectInput';
 
 function App() {
   const cars = [
     {
-      name: "Volvo",
+      name: "Volvo"
     },
     {
-      name: "Fiat",
+      name: "Fiat"
     },
     {
-      name: "Mercedes",
+      name: "Mercedes"
     },
     {
-      name: "Audi",
+      name: "Audi"
     },
   ];
 
+  const label = "Choose a car:"
+
   return (
-    <SelectInput />
+    <SelectInput value={cars} label={label}/>
   );
 }
 
