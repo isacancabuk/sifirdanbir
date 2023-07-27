@@ -1,3 +1,5 @@
+import './SelectInput.css'
+
 function SelectInput(props){
     return (
         <main>

@@ -6,7 +6,6 @@
   font-family: 'Roboto';
   font-size: 25px;
   color: #EFE1D1;
-  
 }
 
 body{
@@ -16,30 +15,4 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-main{
-  width: 400px;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100px;
-  background-color: #A78295;
-  color: #EFE1D1;
-}
-
-label{
-  margin-right: 10px;
-  background-color: transparent;
-}
-
-select{
-  background-color: #3F2E3E;
-  border-radius: 10px;
-  padding: 5px;
-}
-
-select:active, select:focus{
-  outline: none;
 }
